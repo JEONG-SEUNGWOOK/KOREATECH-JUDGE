@@ -31,7 +31,7 @@
 5
 
 */
-/*
+
 #include <cstdio>
 #include <set>
 using namespace std;
@@ -45,4 +45,3 @@ int main(){
     }
     printf("%ld\n",s.size());
 }
-*/
