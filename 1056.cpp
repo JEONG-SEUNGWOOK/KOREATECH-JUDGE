@@ -37,7 +37,7 @@
  782204094
  
  */
-/*
+
 #include <stdio.h>
 
 int main(){
@@ -56,4 +56,3 @@ int main(){
     }
 }
 
-*/
