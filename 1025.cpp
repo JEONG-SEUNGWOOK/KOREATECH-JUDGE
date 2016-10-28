@@ -35,7 +35,7 @@
  3
 
 */
-
+/*
 #include <iostream>
 #include <string>
 using namespace std;
@@ -43,7 +43,7 @@ int main(){
     int T;
     cin>>T;
     while(T--){
-        int cnt[11],max=1;
+        int cnt[10001],max=1;
         string s;
         char c,n;
         cin>>s;
@@ -60,3 +60,4 @@ int main(){
     }
 }
 
+*/
