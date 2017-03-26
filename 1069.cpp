@@ -26,4 +26,4 @@ int main(){
     printf("%d\n",cnt);
 }
 
-//c;main(N){scanf("%d",&N);c=N/5;if(N%5)c++;printf("%d\n",c);}
+//main(N){scanf("%d",&N);printf("%d\n",N%5?N/5+1:N/5);}
