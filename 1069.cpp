@@ -18,10 +18,12 @@
 */
 
 #include <stdio.h>
+int N,cnt;
 int main(){
-    int N,cnt=0;
     scanf("%d",&N);
-    for(int i=5;i>0;i--)
-        cnt+=N/i, N%=i;
+    cnt=N/5;
+    if(N%5) cnt++;
     printf("%d\n",cnt);
 }
+
+//c;main(N){scanf("%d",&N);c=N/5;if(N%5)c++;printf("%d\n",c);}
