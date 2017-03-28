@@ -1,17 +1,16 @@
-/*
-#include <cstdio>
-using namespace std;
 
-bool isPrime(int n){
-    if(n<=1) return false;
-    for(int i=2; i<=(n*0.5)+1; i++)
-        if(n%i==0) return false;
-    return true;
-}
+#include <stdio.h>
+
 int main(){
-    int N;
+    int N,i;
+    bool flag = true;
     scanf("%d",&N);
-    if(isPrime(N)) printf("prime\n");
-    else printf("not prime\n");
+    for(i=2;i*i<=N;i++){
+        if(N%i==0){
+            flag = false;
+            break;
+        }
+    }
+    if(!flag || N<2) printf("not prime\n");
+    else printf("prime\n");
 }
-*/
